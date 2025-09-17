@@ -1,0 +1,192 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+    background-color: rgb(241, 236, 236);
+
+}
+
+header {
+    align-items: center;
+    background-color: rgb(255, 141, 27);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 2px;
+    font-weight: bolder;
+    transition: color0.3 ease-in-out;
+    font-family: sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
+}
+
+header:hover {
+
+    color: rgb(255, 255, 255);
+}
+
+.circle-profile {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.circle-profile:hover {
+    transform: scale(1.05);
+}
+
+.information {
+    margin: 10px 5px;
+    padding: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    font-family: sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.info-container {
+    
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+.info-text {
+    flex: 1;
+    min-width: 200px;
+}
+
+.information h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.information p {
+    margin: 5px 0;
+}
+
+.information video {
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: -9%;
+    margin-left: 42%;
+    width: 400px;
+    transition: transform 0.3s;
+}
+
+.information video:hover {
+    transform: scale(2.5);
+}
+
+.t1 h1 {
+    margin-top: 3%;
+    margin-left: 50px;
+}
+.search-bar{
+    justify-content:  center;
+    margin-left: 30px ;
+}
+.search-bar input{
+    width: 300px;
+    padding: 10px 15px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+    outline:  none;
+    transition: all 0.3s ease-in-out;
+}
+.search-bar input:focus{
+    border-color:  orange;
+    box-shadow: 0 0 8px rgba(255,14127,0.5);
+}
+
+table {
+    border-radius: 15px;
+    margin: 10px;
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 99%;
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+td {
+    font-family: sans-serif;
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+
+}
+
+td p {
+    font-weight: bold;
+
+}
+
+td img {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    overflow: hidden;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+td img:hover {
+    transform: scale(1.5);
+}
+
+td button {
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 15%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgb(56, 172, 75);
+    transition: transform 0.3s;
+}
+
+td button:hover {
+    transform: scale(1.4);
+    background-color: rgb(151, 255, 170);
+    border: 0.1px solid white;
+    color: red;
+
+}
+
+td p1 {
+    font-size: large;
+    font-style: normal;
+}
+
+td h1 {
+    font-size: large;
+}
+
+.tr1 {
+    background-color: rgb(255, 226, 199);
+}
+
+h3 {
+    margin-left: 20px;
+}
+
+footer {
+
+    align-items: center;
+    background-color: rgb(192, 172, 152);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 2px;
+    font-weight: bolder;
+    transition: color0.3 ease-in-out;
+    font-family: sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
