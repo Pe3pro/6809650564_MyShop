@@ -21,7 +21,7 @@ header {
 
 }
 
-header:hover {
+header :hover {
 
     color: rgb(255, 255, 255);
 }
@@ -79,7 +79,7 @@ header:hover {
 }
 
 .information video:hover {
-    transform: scale(2.5);
+    transform: scale(1.1);
 }
 
 .t1 h1 {
@@ -140,7 +140,7 @@ td img {
 }
 
 td img:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 td button {
@@ -157,7 +157,7 @@ td button:hover {
     transform: scale(1.4);
     background-color: rgb(151, 255, 170);
     border: 0.1px solid white;
-    color: red;
+    color: rgb(255, 255, 255);
 
 }
 
@@ -189,4 +189,10 @@ footer {
     transition: color0.3 ease-in-out;
     font-family: sans-serif;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.buttontype{
+    border-radius: 15%;
+    margin-top: -20px;
+    margin-left: 40px;
+    margin-bottom: 10px;
 }
